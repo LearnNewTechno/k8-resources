@@ -3,6 +3,6 @@ kind: ConfigMap
 metadata:
   name: nginx-config
 data:
-  course  : "devops"
-  trainer : "siva"
+  course: "devops"
+  trainer: "siva"
   duration: "120Hrs"
