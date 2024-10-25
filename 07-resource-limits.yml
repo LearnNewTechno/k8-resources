@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: limits
+spec:
+  containers:
+  - name: nginx
+    image: nginx 
+    resources:
+      repquests:
+        cpu: 100m
+        memory: 64Mi
+      limits:
+        cpu: 120m
+        memory: 128Mi
